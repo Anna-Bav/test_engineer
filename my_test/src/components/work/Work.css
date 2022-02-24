@@ -1,0 +1,34 @@
+.work {
+  border: 1px solid blue;
+}
+.work {
+  max-width: 1920px;
+  width: 100%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.work1 {
+  margin-top: 104px;
+  font-family: "Bebas Neue";
+  font-style: bold;
+  font-size: 80px;
+  line-height: 64px;
+  text-transform: uppercase;
+  vertical-align: top;
+  letter-spacing: 5px;
+  background: linear-gradient(0deg, rgba(0, 78, 134, 0.8) 33%, #60b6ff 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.work2 {
+  margin-top: 36px;
+  width: 503px;
+  font-family: "MyFont2";
+  font-size: 20px;
+  line-height: 28px;
+  color: #505050;
+  text-align: center;
+}

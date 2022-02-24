@@ -1,0 +1,11 @@
+.landing{
+    border: 1px solid blue;
+}
+
+.landing{
+    max-width: 1920px;
+    width:100%;
+    height:7470px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
