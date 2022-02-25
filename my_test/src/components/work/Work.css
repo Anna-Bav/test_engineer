@@ -1,6 +1,6 @@
-.work {
+/* .work {
   border: 1px solid blue;
-}
+} */
 .work {
   max-width: 1920px;
   width: 100%;
@@ -25,10 +25,60 @@
 }
 .work2 {
   margin-top: 36px;
-  width: 503px;
+  width: 26.2%;
   font-family: "MyFont2";
   font-size: 20px;
   line-height: 28px;
   color: #505050;
   text-align: center;
+}
+@media (max-width: 1280px){
+.work1{
+  font-size: 65px;
+}
+.work2 {
+font-size: 17px;
+}
+}
+
+@media (max-width: 1024px){
+  .work1{
+    font-size: 55px;
+    margin-top: 75px;
+  }
+  .work2  {
+    font-size: 15px;
+  }
+}
+@media (max-width: 990px){
+  .work2 {
+    width:29.2%;
+  }
+}
+@media (max-width: 770px){
+  .work1 {
+    font-size: 44px;
+  }
+  .work2 {
+    width:34.2%;
+  }
+}
+@media (max-width: 575px) {
+  .work1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 55px;
+  }
+  .work2 {
+    width: 43.2%;
+}
+}
+@media (max-width: 375px) {
+  .work1 {
+    margin-top: 40px;
+    font-size: 43px;
+}
+.work2 {
+  width: 52.2%;
+}
 }

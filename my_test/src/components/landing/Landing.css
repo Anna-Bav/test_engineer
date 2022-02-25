@@ -1,6 +1,6 @@
-.landing{
+/* .landing{
     border: 1px solid blue;
-}
+} */
 
 .landing{
     max-width: 1920px;
@@ -8,4 +8,10 @@
     height:7470px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+@media (max-width: 1600px){
+    /* .landing{
+    max-width: 1600px;
+    width:100%;
+    } */
 }

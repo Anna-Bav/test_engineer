@@ -32,14 +32,14 @@ export default function Header() {
 
 
               <div className='header_inner_main'>
-                <div className='main_inner'>
-                    <div className='main_inner1'>
-                        <div className='main_inner_text1'>Независимое обследование зданий и сооружений</div>
-                        <div className='main_inner_text2'>антенн, труб, теплосетей, канализаций и других объектов строительства</div>
+                <div className='hmain_inner'>
+                    <div className='hmain_inner1'>
+                        <div className='hmain_inner_text1'>Независимое обследование зданий и сооружений</div>
+                        <div className='hmain_inner_text2'>антенн, труб, теплосетей, канализаций и других объектов строительства</div>
                     </div>
-                    <div className='main_inner2'>
-                    <button className='main_btn'><img src='/images/download.svg'/>получить коммерческое</button>
-                    <div className='main_main_inner2_text'>Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер</div>
+                    <div className='hmain_inner2'>
+                    <button className='hmain_btn'><img src='/images/download.svg'/>получить коммерческое</button>
+                    <div className='hmain_main_inner2_text'>Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер</div>
                     </div>
                 </div>
               </div>
